@@ -14,7 +14,13 @@ The primary aim of this project is to develop an automated system that classifie
 
 ## Dataset
 
-The dataset utilized for this project was specifically collected and preprocessed using various NLP techniques. The preprocessing phase involved the following:
+The dataset utilized for this project was specifically collected and preprocessed using various NLP techniques. The dataset consists of three columns:
+
+- **Subject**: The subject line of the email.
+- **Email**: The body content of the email.
+- **Department**: The target department to which the email belongs (Customer Service, Information Technology (IT), or Human Resources (HR)).
+
+The preprocessing phase involved the following:
 
 - **Word Embedding**: The word2vec method was employed for word embedding, allowing for the transformation of textual data into a numerical format suitable for deep learning models.
 
